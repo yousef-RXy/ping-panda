@@ -50,7 +50,7 @@ export default function page() {
           </div>
         </MaxWidthWrapper>
       </section>
-      <section className="relative bg-brand- pb-4">
+      <section className="relative pb-4 bg-brand-25">
         <div className="absolute inset-0 bottom-24 top-24 bg-brand-700" />
         <div className="relative mx-auto">
           <MaxWidthWrapper className="relative">
@@ -62,12 +62,13 @@ export default function page() {
                     avatarAlt="PingPanada Avatar"
                     username="PingPanda"
                     timestamp="today at 12:35PM"
-                    badgeText="SignUp"
+                    badgeText="Revenue"
                     badgeColor="#43b581"
-                    title="👤 New User Signed up"
+                    title="💰 Payment Received"
                     content={{
-                      name: "Abbas Khalid",
-                      email: "A.Khalil27@gmail.com",
+                      amount: "$49.00",
+                      email: "AdibHakim@gmail.com",
+                      plan: "PRO",
                     }}
                   />
                   <DiscordMessage
@@ -76,24 +77,11 @@ export default function page() {
                     username="PingPanda"
                     timestamp="today at 12:35PM"
                     badgeText="SignUp"
-                    badgeColor="#43b581"
+                    badgeColor="#faa61a"
                     title="👤 New User Signed up"
                     content={{
                       name: "Abbas Khalid",
-                      email: "A.Khalil27@gmail.com",
-                    }}
-                  />
-                  <DiscordMessage
-                    avatarSrc="/brand-asset-profile-picture.webp"
-                    avatarAlt="PingPanada Avatar"
-                    username="PingPanda"
-                    timestamp="today at 12:35PM"
-                    badgeText="SignUp"
-                    badgeColor="#43b581"
-                    title="👤 New User Signed up"
-                    content={{
-                      name: "Abbas Khalid",
-                      email: "A.Khalil27@gmail.com",
+                      email: "A.Khalid27@gmail.com",
                     }}
                   />
                 </AnimatedList>
@@ -102,7 +90,7 @@ export default function page() {
           </MaxWidthWrapper>
         </div>
       </section>
-      <section></section>
+      <section className="relative bg-brand-25"></section>
       <section></section>
     </>
   )
