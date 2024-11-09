@@ -5,7 +5,7 @@ import { AnchorHTMLAttributes } from "react"
 
 interface ButtonProps extends AnchorHTMLAttributes<HTMLAnchorElement> {}
 
-function Button({ children, className, href, ...props }: ButtonProps) {
+function CallButton({ children, className, href, ...props }: ButtonProps) {
   return (
     <Link
       href={href ?? "#"}
@@ -27,4 +27,4 @@ function Button({ children, className, href, ...props }: ButtonProps) {
   )
 }
 
-export default Button
+export default CallButton

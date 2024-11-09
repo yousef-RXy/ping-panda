@@ -1,6 +1,6 @@
 import Heading from "@/components/heading"
 import MaxWidthWrapper from "@/components/max-width-wrapper"
-import Button from "@/components/button"
+import CallButton from "@/components/call-button"
 import { Check } from "lucide-react"
 
 export default function page() {
@@ -40,7 +40,9 @@ export default function page() {
               ))}
             </ul>
             <div className="w-full max-w-80">
-              <Button className="h-14 w-full">Start For Free Today</Button>
+              <CallButton className="h-14 w-full">
+                Start For Free Today
+              </CallButton>
             </div>
           </div>
         </MaxWidthWrapper>
