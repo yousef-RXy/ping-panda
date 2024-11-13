@@ -3,6 +3,8 @@ import MaxWidthWrapper from "@/components/max-width-wrapper"
 import CallButton from "@/components/call-button"
 import { Check } from "lucide-react"
 import MockDiscordUI from "@/components/mock-discord-ui"
+import { AnimatedList, AnimatedListItem } from "@/components/ui/animated-list"
+import { DiscordMessage } from "@/components/discord-message"
 
 export default function page() {
   return (
@@ -53,7 +55,23 @@ export default function page() {
         <div className="relative mx-auto">
           <MaxWidthWrapper className="relative">
             <div className="-m-2 rounded-xl bg-gray-900/5 p-2 ring-1 ring-inset ring-gray-900/10 lg:-m-4 lg:rounded-2xl lg:p-4">
-              <MockDiscordUI> </MockDiscordUI>
+              <MockDiscordUI>
+                <AnimatedList>
+                  <DiscordMessage
+                    avatarSrc="/brand-asset-profile-picture.webp"
+                    avatarAlt="PingPanada Avatar"
+                    username="PingPanda"
+                    timestamp="today at 12:35PM"
+                    badgeText="SignUp"
+                    badgeColor="#43b581"
+                    title="👤 New User Signed up"
+                    content={{
+                      name: "Abbas Khalil",
+                      email: "A.Khalil27@gmail.com",
+                    }}
+                  />
+                </AnimatedList>
+              </MockDiscordUI>
             </div>
           </MaxWidthWrapper>
         </div>
