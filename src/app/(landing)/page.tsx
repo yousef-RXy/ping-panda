@@ -66,7 +66,33 @@ export default function page() {
                     badgeColor="#43b581"
                     title="👤 New User Signed up"
                     content={{
-                      name: "Abbas Khalil",
+                      name: "Abbas Khalid",
+                      email: "A.Khalil27@gmail.com",
+                    }}
+                  />
+                  <DiscordMessage
+                    avatarSrc="/brand-asset-profile-picture.webp"
+                    avatarAlt="PingPanada Avatar"
+                    username="PingPanda"
+                    timestamp="today at 12:35PM"
+                    badgeText="SignUp"
+                    badgeColor="#43b581"
+                    title="👤 New User Signed up"
+                    content={{
+                      name: "Abbas Khalid",
+                      email: "A.Khalil27@gmail.com",
+                    }}
+                  />
+                  <DiscordMessage
+                    avatarSrc="/brand-asset-profile-picture.webp"
+                    avatarAlt="PingPanada Avatar"
+                    username="PingPanda"
+                    timestamp="today at 12:35PM"
+                    badgeText="SignUp"
+                    badgeColor="#43b581"
+                    title="👤 New User Signed up"
+                    content={{
+                      name: "Abbas Khalid",
                       email: "A.Khalil27@gmail.com",
                     }}
                   />
