@@ -84,6 +84,19 @@ export default function page() {
                       email: "A.Khalid27@gmail.com",
                     }}
                   />
+                  <DiscordMessage
+                    avatarSrc="/brand-asset-profile-picture.webp"
+                    avatarAlt="PingPanada Avatar"
+                    username="PingPanda"
+                    timestamp="today at 7:42AM"
+                    badgeText="Milestone"
+                    badgeColor="#5865f2"
+                    title="🚀 Revenue Milestone Achieved"
+                    content={{
+                      recurringRevenue: "$5.000 USD",
+                      growth: "+9.6%",
+                    }}
+                  />
                 </AnimatedList>
               </MockDiscordUI>
             </div>
@@ -91,7 +104,7 @@ export default function page() {
         </div>
       </section>
       <section className="relative bg-brand-25"></section>
-      <section></section>
+      <section className="relative bg-brand-25"></section>
     </>
   )
 }
