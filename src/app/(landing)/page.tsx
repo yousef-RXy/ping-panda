@@ -272,6 +272,7 @@ export default function page() {
           </div>
         </MaxWidthWrapper>
       </section>
+
       <section className="relative py-24 sm:py-32 bg-white">
         <MaxWidthWrapper className="flex flex-col items-center gap-16 sm:gap-20">
           <div>
