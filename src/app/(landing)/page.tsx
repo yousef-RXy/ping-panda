@@ -63,7 +63,7 @@ export default function page() {
               ))}
             </ul>
             <div className="w-full max-w-80">
-              <CallButton className="h-14 w-full">
+              <CallButton href="/sign-up" className="h-14 w-full">
                 Start For Free Today
               </CallButton>
             </div>
